@@ -1,0 +1,68 @@
+.hide {
+    display: none;
+}
+
+  #user{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-decoration: underline;
+    font-family: cursive;
+  }
+
+  #login,body{
+    padding:40px;
+    margin: 40px; 
+    border: 2px solid black;
+    background-image: url("download (3).jpeg");
+    background-size: cover;
+    background-position: 4px;
+    font-family: cursive;
+  }
+
+  input[type="text"],input[type="email"],input[type="password"]{
+    font-family:cursive;
+  }
+
+  h1{
+    text-decoration: underline;
+  }
+  .teams {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(rgb(103, 167, 2));
+  }
+
+  p{
+    color: white;
+  }
+  div#team-selection .team {
+    padding: 6px;
+    height: 80px;
+    width: 150px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+  
+  }
+  
+  div#team-selection .selected-team {
+    border-color: red;
+  }
+  
+  
+  .your-team {
+    text-decoration: underline;
+  }
+   
