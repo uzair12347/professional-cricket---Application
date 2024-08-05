@@ -4,10 +4,9 @@
 
   #user{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
-    color: rgb(255, 255, 255);
-    font-size: larger;
+    color: rgb(14,14,14);
+    font-size:x-large;
     text-decoration: underline;
-    font-family: cursive;
   }
 
   #login,body{
@@ -17,11 +16,16 @@
     background-image: url("download (3).jpeg");
     background-size: cover;
     background-position: 4px;
-    font-family: cursive;
+     background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
   }
 
   input[type="text"],input[type="email"],input[type="password"]{
-    font-family:cursive;
+    font-family:Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   h1{
@@ -33,10 +37,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     background-color: rgb(rgb(103, 167, 2));
+      max-width:100%;
+      height:auto;
   }
 
   p{
-    color: white;
+    color: rgb(7,7,7);
   }
   div#team-selection .team {
     padding: 6px;
@@ -65,4 +71,32 @@
   .your-team {
     text-decoration: underline;
   }
+
+@media (min-width:1025px)and (max-width:1366px){
+  #team-selection{
+   flex-wrap: wrap;
+  }
+  }
+
+@media(min-width:992px) and (max-width:1024px){
+
+  }
+   
+  @media (min-width: 768px) and (max-width: 991px) {
+
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+  padding: 20px;
+    margin: 20px;
+    padding-left: 20px;
+  }
+
+  @media (min-width:375) and (max-width: 575px) {
+   padding: 20px;
+    margin: 20px;
+    padding-left: 20px;
+  }
+   
+
    
